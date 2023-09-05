@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Velha</title>
+    <style>
+        /* Estilos para o cabeçalho, barra de navegação, seção de conteúdo e rodapé */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            flex: 1;
+            text-align: center;
+        }
+
+        nav ul li a {
+            color: #fff;
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Media queries para tornar a página responsiva */
+        @media (max-width: 767px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav ul li a {
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav ul li a {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav ul li a {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <script>
+        // Script para exibir alerta de boas-vindas
+        window.addEventListener('DOMContentLoaded', function () {
+            const nomePontoTuristico = "Igreja Velha"; // Coloque aqui o nome do ponto turístico escolhido
+            alert("Bem-vindo ao " + nomePontoTuristico);
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <!-- Cabeçalho -->
+        <h1>Ponto turístico do estado do Espírito Santo</h1>
+    </header>
+
+    <nav>
+        <!-- Barra de navegação -->
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <!-- Seção de conteúdo -->
+        <h2>Conteúdo</h2>
+        <p>Igreja Velha.</p>
+        <img src="/public/images/Igreja_Velha_01.jpeg" alt="Igreja Velha">
+    </section>
+
+    <footer>
+        <!-- Rodapé -->
+        <p>&copy; 2023 Minha Página. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
